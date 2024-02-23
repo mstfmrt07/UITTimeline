@@ -1,10 +1,9 @@
 using System;
-using UITTimeline;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-namespace UI.Animation
+namespace UITTimeline
 {
 	/// <summary>
 	/// A UI Toolkit timeline clip to set a VisualElement ti Display.None or Display.Flex.

@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
-using UITTimeline;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.UIElements;
 
-namespace UI.Animation
+namespace UITTimeline
 {
 	/// <summary>
 	/// The behaviour / data of the 

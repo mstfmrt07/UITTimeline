@@ -1,6 +1,6 @@
 using UnityEditor;
 
-namespace UI.Animation.Editor
+namespace UITTimeline.Editor
 {
 	[CustomEditor(typeof(UITBackgroundClip))]
 	public class UITBackgroundClipEditor : UnityEditor.Editor
