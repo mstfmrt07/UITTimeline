@@ -23,6 +23,7 @@ namespace UITTimeline
 			if (Elements == null) return;
 			foreach (var e in Elements)
 			{
+				Debug.Log("UITBackgroundBehaviour.OnBehaviourPlay: " + e.name);
 				e.style.backgroundImage = new StyleBackground(BackgroundImage);
 			}
 		}
