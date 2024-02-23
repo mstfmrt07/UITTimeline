@@ -27,14 +27,5 @@ namespace UITTimeline
 				e.style.backgroundImage = new StyleBackground(BackgroundImage);
 			}
 		}
-
-		public override void OnBehaviourPause(Playable playable, FrameData info)
-		{
-			if (Elements == null) return;
-			foreach (var e in Elements)
-			{
-				e.style.backgroundImage = new StyleBackground();
-			}
-		}
 	}
 }
