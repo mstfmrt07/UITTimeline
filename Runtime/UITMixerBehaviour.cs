@@ -38,6 +38,9 @@ namespace UITTimeline
                     case UITVisibilityBehaviour vis:
                         vis.Elements = Elements;
                         break;
+                    case UITBackgroundBehaviour bg:
+                        bg.Elements = Elements;
+                        break;
                 }
             }
 
