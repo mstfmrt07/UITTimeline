@@ -14,7 +14,7 @@ namespace UITTimeline
 	[Serializable]
 	public class UITBackgroundBehaviour : UITBehaviour
 	{
-		public Sprite BackgroundImage;
+		public Texture2D BackgroundImage;
 
 		[HideInInspector] public List<VisualElement> Elements;
 
